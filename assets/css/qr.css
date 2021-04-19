@@ -1,0 +1,110 @@
+
+.app {
+	width: 550px;
+	padding: 0;
+	margin: 20px 20px 20px 20px ;	
+	border-color: #C0C0C0;
+	background-color: #006633;
+	color: white;
+	height: auto;
+  /*display: inline-block;*/
+
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+width: 540px;
+	background-color: black;
+	margin: 0 0 40px 0;
+	padding-left: 10px;
+
+}
+
+.description h3 {
+font-size: 16px;
+display: inline-block;
+}
+
+.answer {
+	margin: 10px 0 0 15px;
+	font-size: 14px;
+}
+
+.info {
+	font-size: 24px;
+	color: #FFD700;
+	font-weight: bold;
+	padding-right: 20px;
+	cursor: pointer;
+}
+
+.container {
+display: flex;
+justify-content: space-between;
+	padding: 0 20px 50px 20px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.label {
+	padding: 2vh;
+	display: flex;
+	align-items: center;
+        /*justify-content: space-between;*/
+        /*flex-direction: column;*/
+        /*align-items: stretch;*/
+}
+
+.label img {
+	width: 35px;
+	display: inline-block;
+	float: left;
+	margin-left: 10%;
+    margin-right: auto;
+}
+
+.label span {
+	display: inline-block;
+	float: left;
+	margin-top: 7px;
+	margin-left: 5%;
+}
+
+.inputfile + label {
+	width: 200px;
+	border-radius: 35px;
+	text-align: center;
+    font-size: 0.95em;
+    font-weight: 350;
+    color: white;
+    background-color: #003300;
+    display: inline-block;
+    cursor: pointer; /* "hand" cursor */
+    /*outline: 1px dotted #000;*/
+	/*outline: -webkit-focus-ring-color auto 5px;*/
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #669966;
+}
+
+.pic_art {
+	
+}
+
+.pic_art img {
+	width: 250px;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href="/qr_code_generator/assets/css/qr.css" rel="stylesheet">
+	<title>Корпоративный портал</title>
+
+</head>
+<body>
+
+	<section id="app_1" class="app">
+
+	<div class="description">
+		
+		<h3>Создание QR-кода для счета на оплату физического лица.</h3>
+
+		<div id="info" class="info">?</div>
+
+	</div>
+
+
+<div id="container" class="container">
+	<div id="wripper">
+		<div id="qr_cod_gen">
+			<div id="fileName">
+				<form>
+				<input type="file" name="file" id="file" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+				
+				<label class="label" for="file">
+					<div>
+					<img src="assets/img/file.png">
+					</div>			
+					
+					<div>
+					<span>Выберите файл...</span>
+					</div>
+			</label>
+				</form>
+			</div>
+
+			<div>
+				<!-- <button id="generateAndSave">Создать QR-cod</button> -->
+			</div>
+
+			<div id="answer" class="answer"></div>
+
+		</div>
+	</div>
+
+
+<div class="pic_art"><img src="/qr_code_generator/assets/img/excel.png"> </div>
+</div>
+</section>
+
+<script type="text/javascript" src="/qr_code_generator/assets/js/qr.js"></script>
+
+
+</body>
+</html>
